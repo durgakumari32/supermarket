@@ -1,0 +1,871 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kumari Supermarket - Fresh Groceries, Bulk Orders & Supermarket Services</title>
+  <meta name="description" content="Kumari Supermarket delivers fresh groceries, bulk wholesale orders, wedding catering supplies, hotel/restaurant supplies, and custom gift hampers with same-day express delivery.">
+  <meta name="keywords" content="supermarket, grocery delivery, bulk grocery orders, wedding catering supply, restaurant supplies, fresh produce, Kumari Supermarket">
+  <meta name="author" content="Kumari Supermarket">
+  
+  <!-- Open Graph Meta Tags -->
+  <meta property="og:title" content="Kumari Supermarket - Fresh Groceries & Bulk Services">
+  <meta property="og:description" content="Discover premium grocery delivery, wholesale bulk packages, restaurant supplies, and catering services.">
+  <meta property="og:type" content="website">
+
+  <!-- Google Fonts (Poppins) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400;1,600&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome 6 Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/animations.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+
+  <!-- 1. TOPBAR -->
+  <div class="topbar">
+    <div class="container topbar-content">
+      <div class="topbar-left">
+        <div class="topbar-item">
+          <i class="fa-solid fa-clock"></i>
+          <span>Open Daily: 7:00 AM – 10:00 PM</span>
+        </div>
+        <div class="topbar-item">
+          <i class="fa-solid fa-truck-fast"></i>
+          <span>Same-Day Express Delivery Available</span>
+        </div>
+      </div>
+      <div class="topbar-right">
+        <div class="topbar-item">
+          <i class="fa-solid fa-phone"></i>
+          <a href="tel:+919876543210">+91 98765 43210</a>
+        </div>
+        <div class="topbar-item">
+          <i class="fa-brands fa-whatsapp"></i>
+          <a href="https://wa.me/919876543210" target="_blank" rel="noopener">WhatsApp Us</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- 2. STICKY HEADER & NAVBAR -->
+  <header class="header" id="mainHeader">
+    <div class="container">
+      <nav class="navbar" aria-label="Main Navigation">
+        <a href="index.html" class="logo">
+          <div class="logo-icon">
+            <i class="fa-solid fa-basket-shopping"></i>
+          </div>
+          <div class="logo-text">
+            <div>KUMARI<span>MART</span></div>
+            <span class="logo-tagline">Supermarket & Supply Services</span>
+          </div>
+        </a>
+
+        <!-- Desktop Menu -->
+        <ul class="nav-menu">
+          <li><a href="index.html" class="nav-link active">Home</a></li>
+          <li><a href="about.html" class="nav-link">About Us</a></li>
+          <li><a href="services.html" class="nav-link">Services</a></li>
+          <li><a href="portfolio.html" class="nav-link">Portfolio</a></li>
+          <li><a href="offers.html" class="nav-link">Offers & Deals</a></li>
+          <li><a href="contact.html" class="nav-link">Contact</a></li>
+        </ul>
+
+        <!-- Header CTA Buttons -->
+        <div class="nav-cta">
+          <a href="tel:+919876543210" class="btn btn-secondary btn-sm">
+            <i class="fa-solid fa-phone"></i> Call Now
+          </a>
+          <button class="nav-toggle" aria-label="Open Navigation Menu">
+            <i class="fa-solid fa-bars"></i>
+          </button>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Mobile Navigation Drawer -->
+  <div class="mobile-nav" id="mobileDrawer">
+    <div>
+      <div class="mobile-nav-header">
+        <a href="index.html" class="logo">
+          <div class="logo-icon"><i class="fa-solid fa-basket-shopping"></i></div>
+          <div class="logo-text">KUMARI<span>MART</span></div>
+        </a>
+        <button class="mobile-nav-close" aria-label="Close Navigation Menu">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+      </div>
+
+      <div class="mobile-nav-links">
+        <a href="index.html" class="mobile-nav-link active">Home <i class="fa-solid fa-chevron-right"></i></a>
+        <a href="about.html" class="mobile-nav-link">About Us <i class="fa-solid fa-chevron-right"></i></a>
+        <a href="services.html" class="mobile-nav-link">Services <i class="fa-solid fa-chevron-right"></i></a>
+        <a href="portfolio.html" class="mobile-nav-link">Portfolio <i class="fa-solid fa-chevron-right"></i></a>
+        <a href="offers.html" class="mobile-nav-link">Offers & Deals <i class="fa-solid fa-chevron-right"></i></a>
+        <a href="contact.html" class="mobile-nav-link">Contact <i class="fa-solid fa-chevron-right"></i></a>
+      </div>
+    </div>
+
+    <div>
+      <a href="contact.html" class="btn btn-primary" style="width:100%; margin-bottom: 0.75rem;">
+        <i class="fa-solid fa-file-invoice"></i> Request Quote
+      </a>
+      <a href="https://wa.me/919876543210" target="_blank" class="btn btn-secondary" style="width:100%;">
+        <i class="fa-brands fa-whatsapp"></i> Chat on WhatsApp
+      </a>
+    </div>
+  </div>
+  <div class="nav-overlay" id="navOverlay"></div>
+
+  <!-- 3. HERO SECTION -->
+  <section class="hero" id="homeHero">
+    <div class="container">
+      <div class="hero-grid">
+        <div class="hero-content reveal reveal-left">
+          <div class="hero-badge">
+            <span></span> Leading Supermarket & Bulk Supply Partner
+          </div>
+          <h1 class="hero-title">
+            Fresh Groceries Delivered to <span class="highlight">Your Doorstep</span> & Business
+          </h1>
+          <p class="hero-desc">
+            Kumari Supermarket bridges farm-fresh quality with express convenience. We specialize in household grocery delivery, bulk wedding provisions, hotel supply contracts, and bespoke corporate hampers.
+          </p>
+
+          <div class="hero-actions">
+            <a href="services.html" class="btn btn-primary btn-lg">
+              <i class="fa-solid fa-grid-2"></i> View Services
+            </a>
+            <a href="contact.html" class="btn btn-outline btn-lg">
+              <i class="fa-solid fa-paper-plane"></i> Contact Us
+            </a>
+          </div>
+
+          <div class="hero-features">
+            <div class="hero-feature-item">
+              <div class="hero-feature-icon"><i class="fa-solid fa-leaf"></i></div>
+              <div class="hero-feature-text">
+                <h5>100% Farm Fresh</h5>
+                <p>Direct farm sourcing</p>
+              </div>
+            </div>
+            <div class="hero-feature-item">
+              <div class="hero-feature-icon"><i class="fa-solid fa-boxes-stacked"></i></div>
+              <div class="hero-feature-text">
+                <h5>Bulk Wholesale</h5>
+                <p>Best volume discounts</p>
+              </div>
+            </div>
+            <div class="hero-feature-item">
+              <div class="hero-feature-icon"><i class="fa-solid fa-truck-bolt"></i></div>
+              <div class="hero-feature-text">
+                <h5>Express Dispatch</h5>
+                <p>Fast & hygienic transit</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-media-wrapper reveal reveal-right">
+          <div class="hero-media-card">
+            <img 
+              src="https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&w=1000&q=80" 
+              alt="Kumari Supermarket Fresh Aisles and Produce" 
+              class="hero-main-img"
+              loading="eager"
+            >
+          </div>
+
+          <!-- Floating Badges -->
+          <div class="floating-badge badge-top-right">
+            <div class="badge-icon-box">
+              <i class="fa-solid fa-shield-halved"></i>
+            </div>
+            <div class="badge-text-box">
+              <h5>100% Quality Checked</h5>
+              <p>Graded fresh daily</p>
+            </div>
+          </div>
+
+          <div class="floating-badge badge-bottom-left">
+            <div class="badge-icon-box green">
+              <i class="fa-solid fa-truck-ramp-box"></i>
+            </div>
+            <div class="badge-text-box">
+              <h5>Bulk Delivery Fleet</h5>
+              <p>Serving 50+ local pincodes</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 4 Customer Guarantees Strip -->
+      <div class="guarantees-grid reveal">
+        <div class="guarantee-card">
+          <div class="guarantee-icon"><i class="fa-solid fa-shield-heart"></i></div>
+          <div class="guarantee-text">
+            <h5>100% Freshness Guarantee</h5>
+            <p>Direct farm sourcing or instant replacement</p>
+          </div>
+        </div>
+        <div class="guarantee-card">
+          <div class="guarantee-icon gold"><i class="fa-solid fa-bolt-lightning"></i></div>
+          <div class="guarantee-text">
+            <h5>60-Min Express Dispatch</h5>
+            <p>Hygienic, insulated doorstep transit</p>
+          </div>
+        </div>
+        <div class="guarantee-card">
+          <div class="guarantee-icon"><i class="fa-solid fa-tags"></i></div>
+          <div class="guarantee-text">
+            <h5>Wholesale Rate Promise</h5>
+            <p>We beat any local retail supermarket price</p>
+          </div>
+        </div>
+        <div class="guarantee-card">
+          <div class="guarantee-icon gold"><i class="fa-solid fa-headset"></i></div>
+          <div class="guarantee-text">
+            <h5>Dedicated WhatsApp Support</h5>
+            <p>Instant human replies within 2 minutes</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 4. ABOUT PREVIEW -->
+  <section class="section section-bg-alt" id="aboutPreview">
+    <div class="container">
+      <div class="hero-grid" style="grid-template-columns: 0.95fr 1.05fr; align-items: center;">
+        <div class="reveal reveal-left">
+          <div style="position: relative; border-radius: var(--radius-xl); overflow: hidden; box-shadow: var(--shadow-xl);">
+            <img 
+              src="https://images.unsplash.com/photo-1578916171728-46686eac8d58?auto=format&fit=crop&w=800&q=80" 
+              alt="Kumari Supermarket Team and Store Infrastructure"
+              style="width: 100%; height: 380px; object-fit: cover;"
+            >
+            <div style="position: absolute; bottom: 1.5rem; left: 1.5rem; background: rgba(15, 23, 42, 0.85); backdrop-filter: blur(8px); padding: 1rem 1.5rem; border-radius: var(--radius-md); color: white; border-left: 4px solid var(--secondary);">
+              <h4 style="color:white; margin:0; font-size:1.1rem;">Serving Kanyakumari Since 2009</h4>
+              <p style="color:rgba(255,255,255,0.8); font-size:0.85rem; margin:0;">15+ Years of trust, freshness & community service</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="reveal reveal-right">
+          <div class="section-badge"><i class="fa-solid fa-store"></i> About Kumari Supermarket</div>
+          <h2 class="section-title">More Than Just a Grocery Store — Your Comprehensive Supply Partner</h2>
+          <p style="margin-bottom: 1.25rem;">
+            Founded with a commitment to bring spotless purity and unmatched variety to our community, Kumari Supermarket has evolved from a neighborhood retailer into a powerhouse supermarket service provider.
+          </p>
+          <p style="margin-bottom: 2rem;">
+            Whether you need a weekly grocery basket delivered to your home or multi-ton provisions for an 800-guest wedding banquet, our dedicated logistics, temperature-controlled cold chain, and direct farmer network ensure fresh perfection.
+          </p>
+
+          <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1.25rem; margin-bottom: 2rem;">
+            <div style="display:flex; align-items:center; gap:0.75rem;">
+              <i class="fa-solid fa-circle-check" style="color:var(--primary); font-size:1.3rem;"></i>
+              <span style="font-weight:600; font-size:0.95rem;">Direct Farm Produce</span>
+            </div>
+            <div style="display:flex; align-items:center; gap:0.75rem;">
+              <i class="fa-solid fa-circle-check" style="color:var(--primary); font-size:1.3rem;"></i>
+              <span style="font-weight:600; font-size:0.95rem;">Wholesale Bulk Pricing</span>
+            </div>
+            <div style="display:flex; align-items:center; gap:0.75rem;">
+              <i class="fa-solid fa-circle-check" style="color:var(--primary); font-size:1.3rem;"></i>
+              <span style="font-weight:600; font-size:0.95rem;">Live Order Tracking</span>
+            </div>
+            <div style="display:flex; align-items:center; gap:0.75rem;">
+              <i class="fa-solid fa-circle-check" style="color:var(--primary); font-size:1.3rem;"></i>
+              <span style="font-weight:600; font-size:0.95rem;">Corporate Credit Terms</span>
+            </div>
+          </div>
+
+          <a href="about.html" class="btn btn-primary">
+            Read Our Story <i class="fa-solid fa-arrow-right"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 5. FEATURED SERVICES SECTION -->
+  <section class="section" id="featuredServices">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-badge"><i class="fa-solid fa-cubes"></i> What We Do</div>
+        <h2 class="section-title">Comprehensive Supermarket Services</h2>
+        <p class="section-subtitle">Tailored grocery and provisioning solutions designed for households, institutions, restaurants, and grand celebrations.</p>
+      </div>
+
+      <div class="services-grid">
+        <!-- Service Card 1 -->
+        <div class="card reveal stagger-1">
+          <div class="card-img-wrapper">
+            <span class="card-badge">Express</span>
+            <img src="https://images.unsplash.com/photo-1526367790999-0150786686a2?auto=format&fit=crop&w=600&q=80" alt="Home Grocery Express Delivery" class="card-img">
+          </div>
+          <div class="card-body">
+            <div class="card-icon-header"><i class="fa-solid fa-truck-fast"></i></div>
+            <h3 class="card-title">Home Grocery Delivery</h3>
+            <p class="card-text">Same-day doorstep delivery of dairy, pantry essentials, fresh produce, and packaged goods in temperature-safe containers.</p>
+            <ul class="card-features-list">
+              <li><i class="fa-solid fa-check"></i> 60-Minute express delivery slots</li>
+              <li><i class="fa-solid fa-check"></i> Free delivery on orders above ₹499</li>
+            </ul>
+            <div class="card-footer">
+              <span class="card-meta-info"><i class="fa-solid fa-box"></i> Min: ₹200</span>
+              <button class="btn btn-outline btn-sm" data-open-quote data-service="Home Grocery Delivery">Inquire Now</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Service Card 2 -->
+        <div class="card reveal stagger-2">
+          <div class="card-img-wrapper">
+            <span class="card-badge badge-orange">Wholesale</span>
+            <img src="https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=600&q=80" alt="Bulk Wholesale Orders" class="card-img">
+          </div>
+          <div class="card-body">
+            <div class="card-icon-header" style="background:var(--secondary-light); color:var(--secondary-dark);"><i class="fa-solid fa-boxes-stacked"></i></div>
+            <h3 class="card-title">Bulk Wholesale Orders</h3>
+            <p class="card-text">Specialized bulk provisioning for hostels, canteens, community kitchens, and retailers with volume price breaks.</p>
+            <ul class="card-features-list">
+              <li><i class="fa-solid fa-check"></i> 10% to 25% wholesale discount</li>
+              <li><i class="fa-solid fa-check"></i> Pallet & sack packaging available</li>
+            </ul>
+            <div class="card-footer">
+              <span class="card-meta-info"><i class="fa-solid fa-box"></i> Min: 50 kg / ₹5,000</span>
+              <button class="btn btn-outline btn-sm" data-open-quote data-service="Bulk Wholesale Orders">Inquire Now</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Service Card 3 -->
+        <div class="card reveal stagger-3">
+          <div class="card-img-wrapper">
+            <span class="card-badge">Events</span>
+            <img src="https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=600&q=80" alt="Wedding & Event Supplies" class="card-img">
+          </div>
+          <div class="card-body">
+            <div class="card-icon-header"><i class="fa-solid fa-champagne-glasses"></i></div>
+            <h3 class="card-title">Wedding & Event Supplies</h3>
+            <p class="card-text">End-to-end grocery and cooking provisioning for catering teams, marriage feasts, and festive religious functions.</p>
+            <ul class="card-features-list">
+              <li><i class="fa-solid fa-check"></i> Tailored catering bill-of-materials</li>
+              <li><i class="fa-solid fa-check"></i> Unopened item return policy</li>
+            </ul>
+            <div class="card-footer">
+              <span class="card-meta-info"><i class="fa-solid fa-users"></i> Up to 5000 Guests</span>
+              <button class="btn btn-outline btn-sm" data-open-quote data-service="Wedding & Event Supplies">Inquire Now</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Service Card 4 -->
+        <div class="card reveal stagger-1">
+          <div class="card-img-wrapper">
+            <span class="card-badge badge-orange">HoReCa</span>
+            <img src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=600&q=80" alt="Hotel & Restaurant Supply" class="card-img">
+          </div>
+          <div class="card-body">
+            <div class="card-icon-header" style="background:var(--secondary-light); color:var(--secondary-dark);"><i class="fa-solid fa-utensils"></i></div>
+            <h3 class="card-title">Hotel & Restaurant Supply</h3>
+            <p class="card-text">Daily scheduled early-morning deliveries of fresh poultry, dairy, sauces, oils, grains, and specialty cooking spices.</p>
+            <ul class="card-features-list">
+              <li><i class="fa-solid fa-check"></i> 5:30 AM early kitchen drop-off</li>
+              <li><i class="fa-solid fa-check"></i> Monthly billing & GST invoices</li>
+            </ul>
+            <div class="card-footer">
+              <span class="card-meta-info"><i class="fa-solid fa-calendar-check"></i> Daily Dispatch</span>
+              <button class="btn btn-outline btn-sm" data-open-quote data-service="Hotel & Restaurant Supply">Inquire Now</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Service Card 5 -->
+        <div class="card reveal stagger-2">
+          <div class="card-img-wrapper">
+            <span class="card-badge">Daily Fresh</span>
+            <img src="https://images.unsplash.com/photo-1610832958506-aa56368176cf?auto=format&fit=crop&w=600&q=80" alt="Fresh Fruits & Vegetables" class="card-img">
+          </div>
+          <div class="card-body">
+            <div class="card-icon-header"><i class="fa-solid fa-apple-whole"></i></div>
+            <h3 class="card-title">Fresh Fruits & Vegetables</h3>
+            <p class="card-text">Grade-A farm-harvested exotic and native seasonal fruits and vegetables, ozone-cleaned and hand-sorted daily.</p>
+            <ul class="card-features-list">
+              <li><i class="fa-solid fa-check"></i> Harvested within 18 hours</li>
+              <li><i class="fa-solid fa-check"></i> 100% replacement guarantee</li>
+            </ul>
+            <div class="card-footer">
+              <span class="card-meta-info"><i class="fa-solid fa-seedling"></i> Zero Preservatives</span>
+              <button class="btn btn-outline btn-sm" data-open-quote data-service="Fresh Fruits & Vegetables">Inquire Now</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Service Card 6 -->
+        <div class="card reveal stagger-3">
+          <div class="card-img-wrapper">
+            <span class="card-badge badge-orange">Gifting</span>
+            <img src="https://images.unsplash.com/photo-1549465220-1a8b9238cd48?auto=format&fit=crop&w=600&q=80" alt="Corporate Gifts & Hampers" class="card-img">
+          </div>
+          <div class="card-body">
+            <div class="card-icon-header" style="background:var(--secondary-light); color:var(--secondary-dark);"><i class="fa-solid fa-gift"></i></div>
+            <h3 class="card-title">Corporate Gift Hampers</h3>
+            <p class="card-text">Luxurious dry fruit collections, gourmet chocolate baskets, and customized festive gift hampers with corporate branding.</p>
+            <ul class="card-features-list">
+              <li><i class="fa-solid fa-check"></i> Custom box branding & ribbons</li>
+              <li><i class="fa-solid fa-check"></i> Pan-district multi-address delivery</li>
+            </ul>
+            <div class="card-footer">
+              <span class="card-meta-info"><i class="fa-solid fa-ribbon"></i> Custom Packed</span>
+              <button class="btn btn-outline btn-sm" data-open-quote data-service="Corporate Gift Hampers">Inquire Now</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div style="text-align: center; margin-top: 3.5rem;" class="reveal">
+        <a href="services.html" class="btn btn-primary btn-lg">
+          Explore All 10 Supermarket Services <i class="fa-solid fa-arrow-right"></i>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- 6. WHY CHOOSE US -->
+  <section class="section section-bg-alt" id="whyChooseUs">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-badge"><i class="fa-solid fa-award"></i> The Kumari Advantage</div>
+        <h2 class="section-title">Why Businesses & Families Trust Us</h2>
+        <p class="section-subtitle">We blend old-school grocery care with modern cold-chain logistics to give you the most reliable supermarket service in the region.</p>
+      </div>
+
+      <div class="features-grid">
+        <div class="feature-box reveal stagger-1">
+          <div class="feature-box-icon"><i class="fa-solid fa-seedling"></i></div>
+          <h4>Direct Farm Partnerships</h4>
+          <p>We source directly from over 80 verified local agriculturists, removing middlemen to offer the freshest harvests at honest pricing.</p>
+        </div>
+
+        <div class="feature-box reveal stagger-2">
+          <div class="feature-box-icon"><i class="fa-solid fa-snowflake"></i></div>
+          <h4>Cold Chain Infrastructure</h4>
+          <p>Our fleet of temperature-controlled chiller vans guarantees that milk, paneer, and frozen items arrive completely fresh.</p>
+        </div>
+
+        <div class="feature-box reveal stagger-3">
+          <div class="feature-box-icon"><i class="fa-solid fa-hand-holding-dollar"></i></div>
+          <h4>Transparent Bulk Pricing</h4>
+          <p>Enjoy clear tiered discounts on wholesale, catering, and monthly subscription packages with zero hidden handling charges.</p>
+        </div>
+
+        <div class="feature-box reveal stagger-4">
+          <div class="feature-box-icon"><i class="fa-solid fa-headset"></i></div>
+          <h4>Dedicated Account Managers</h4>
+          <p>Hotels, caterers, and corporate clients receive a single point of contact for instant order updates, billing, and repeat provisioning.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 7. BUSINESS STATISTICS COUNTER -->
+  <section class="stats-section" id="statsSection">
+    <div class="container">
+      <div class="stats-grid">
+        <div class="stat-card reveal stagger-1">
+          <div class="stat-icon"><i class="fa-solid fa-calendar-check"></i></div>
+          <div class="stat-number" data-target="15">0</div>
+          <div class="stat-label">Years of Trusted Service</div>
+        </div>
+
+        <div class="stat-card reveal stagger-2">
+          <div class="stat-icon"><i class="fa-solid fa-users"></i></div>
+          <div class="stat-number" data-target="25000">0</div>
+          <div class="stat-label">Happy Regular Customers</div>
+        </div>
+
+        <div class="stat-card reveal stagger-3">
+          <div class="stat-icon"><i class="fa-solid fa-truck-ramp-box"></i></div>
+          <div class="stat-number" data-target="1200">0</div>
+          <div class="stat-label">Daily Deliveries Completed</div>
+        </div>
+
+        <div class="stat-card reveal stagger-4">
+          <div class="stat-icon"><i class="fa-solid fa-cubes-stacked"></i></div>
+          <div class="stat-number" data-target="10000">0</div>
+          <div class="stat-label">Products & Groceries Stocked</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 8. OUR 3-STEP PROCESS -->
+  <section class="section" id="ourProcess">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-badge"><i class="fa-solid fa-route"></i> Seamless Fulfillment</div>
+        <h2 class="section-title">How Our Supermarket Service Works</h2>
+        <p class="section-subtitle">From placing your order to doorstep hand-off, our streamlined 3-step workflow ensures freshness, speed, and accuracy.</p>
+      </div>
+
+      <div class="process-grid">
+        <div class="process-card reveal stagger-1">
+          <div class="process-step-num">1</div>
+          <div class="process-icon"><i class="fa-solid fa-list-check"></i></div>
+          <h4>1. Select & Request</h4>
+          <p>Order online, request a custom quote via our website, or send your grocery list directly over WhatsApp or phone call.</p>
+        </div>
+
+        <div class="process-card reveal stagger-2">
+          <div class="process-step-num">2</div>
+          <div class="process-icon"><i class="fa-solid fa-clipboard-check"></i></div>
+          <h4>2. Quality Sort & Pack</h4>
+          <p>Our trained fulfillment team hand-picks the freshest items, conducts multi-point quality checks, and packs them in hygienic eco-bags.</p>
+        </div>
+
+        <div class="process-card reveal stagger-3">
+          <div class="process-step-num">3</div>
+          <div class="process-icon"><i class="fa-solid fa-truck-fast"></i></div>
+          <h4>3. Express Doorstep Delivery</h4>
+          <p>Our dedicated delivery fleet dispatches your order straight to your home, event hall, restaurant, or office with live updates.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 9. TESTIMONIALS SLIDER -->
+  <section class="section section-bg-alt" id="testimonials">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-badge"><i class="fa-solid fa-comments"></i> Real Feedback</div>
+        <h2 class="section-title">What Our Customers Say</h2>
+        <p class="section-subtitle">Trusted by thousands of home cooks, head chefs, wedding planners, and corporate leaders across the region.</p>
+      </div>
+
+      <div class="testimonial-slider-container reveal">
+        <div class="testimonial-track">
+          <!-- Testimonial 1 -->
+          <div class="testimonial-slide">
+            <div class="testimonial-card">
+              <div class="quote-icon"><i class="fa-solid fa-quote-left"></i></div>
+              <div class="testimonial-rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <p class="testimonial-text">
+                "Kumari Supermarket supplied all groceries, rice varieties, and fresh vegetables for my daughter's 750-guest wedding banquet. Everything arrived right on schedule at 4 AM, and not a single item was missing. Their bulk rates saved us over ₹35,000!"
+              </p>
+              <div class="testimonial-author">
+                <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=120&q=80" alt="S. Meenakshi" class="author-avatar">
+                <div class="author-info">
+                  <h5>S. Meenakshi</h5>
+                  <p>Wedding Host & Homemaker, Nagercoil</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Testimonial 2 -->
+          <div class="testimonial-slide">
+            <div class="testimonial-card">
+              <div class="quote-icon"><i class="fa-solid fa-quote-left"></i></div>
+              <div class="testimonial-rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <p class="testimonial-text">
+                "As an executive chef managing two fine-dining restaurants, consistency in fresh dairy and produce is non-negotiable. Kumari Supermarket's daily HoReCa delivery service has been flawless for over 3 years straight."
+              </p>
+              <div class="testimonial-author">
+                <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=120&q=80" alt="Chef Rajesh Kumar" class="author-avatar">
+                <div class="author-info">
+                  <h5>Chef Rajesh Kumar</h5>
+                  <p>Head Chef, Sea Pearl Resort</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Testimonial 3 -->
+          <div class="testimonial-slide">
+            <div class="testimonial-card">
+              <div class="quote-icon"><i class="fa-solid fa-quote-left"></i></div>
+              <div class="testimonial-rating">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <p class="testimonial-text">
+                "We ordered 350 custom Diwali gourmet gift baskets for our tech staff. The branding was elegant, dry fruits were exceptionally fresh, and the delivery was dispatched flawlessly to four office branches."
+              </p>
+              <div class="testimonial-author">
+                <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=120&q=80" alt="Ananya Sundaram" class="author-avatar">
+                <div class="author-info">
+                  <h5>Ananya Sundaram</h5>
+                  <p>HR Director, Apex Technologies</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="slider-controls">
+          <button class="slider-btn slider-prev" aria-label="Previous Testimonial"><i class="fa-solid fa-chevron-left"></i></button>
+          <div class="slider-dots"></div>
+          <button class="slider-btn slider-next" aria-label="Next Testimonial"><i class="fa-solid fa-chevron-right"></i></button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 10. LATEST OFFERS BANNER -->
+  <section class="section" id="latestOffers">
+    <div class="container">
+      <div class="countdown-banner reveal">
+        <div class="countdown-info">
+          <div class="section-badge" style="background:rgba(255,255,255,0.25); color:white; border-color:transparent;">
+            <i class="fa-solid fa-bolt"></i> Weekend Mega Harvest
+          </div>
+          <h3>Save Up to 25% on Bulk Grocery Packages</h3>
+          <p>Special discounts on farm-fresh staples, edible oils, pulses, and monthly pantry bundles.</p>
+        </div>
+
+        <div class="countdown-timer">
+          <div class="time-box">
+            <span class="time-val" id="days">04</span>
+            <span class="time-label">Days</span>
+          </div>
+          <div class="time-box">
+            <span class="time-val" id="hours">18</span>
+            <span class="time-label">Hours</span>
+          </div>
+          <div class="time-box">
+            <span class="time-val" id="mins">42</span>
+            <span class="time-label">Mins</span>
+          </div>
+          <div class="time-box">
+            <span class="time-val" id="secs">15</span>
+            <span class="time-label">Secs</span>
+          </div>
+        </div>
+      </div>
+
+      <div style="text-align: center; margin-top: 1.5rem;" class="reveal">
+        <a href="offers.html" class="btn btn-secondary btn-lg">
+          <i class="fa-solid fa-tags"></i> View All Active Coupons &amp; Offers
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- 11. LEAD-GENERATING CALL TO ACTION -->
+  <section class="section" style="padding-top: 0;" id="ctaSection">
+    <div class="container">
+      <div class="cta-banner reveal">
+        <h2>Planning a Grand Event or Need Regular Business Supply?</h2>
+        <p>Get a customized price proposal tailored to your headcount, menu, and delivery schedule within 30 minutes.</p>
+        <div class="cta-banner-actions">
+          <a href="contact.html" class="btn btn-secondary btn-lg">
+            <i class="fa-solid fa-calculator"></i> Calculate Bulk Quote
+          </a>
+          <a href="https://wa.me/919876543210" target="_blank" class="btn btn-outline-white btn-lg">
+            <i class="fa-brands fa-whatsapp"></i> Chat with Catering Specialist
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 12. NEWSLETTER & 5-MIN CALLBACK -->
+  <section class="section" style="padding-top:0; padding-bottom: 3rem;" id="newsletterSection">
+    <div class="container">
+      <div class="newsletter-box reveal">
+        <div style="text-align: center;">
+          <h3 style="margin-bottom: 0.5rem; font-size:1.5rem;">Subscribe for Weekly Price Alerts &amp; Deals</h3>
+          <p>Get the latest wholesale price lists, seasonal arrival alerts, and exclusive subscriber coupon codes.</p>
+        </div>
+        <form class="newsletter-form">
+          <input type="email" class="form-control" placeholder="Enter your email address..." required>
+          <button type="submit" class="btn btn-primary">Subscribe Now</button>
+        </form>
+      </div>
+
+      <!-- Instant 5-Minute Callback Strip -->
+      <div class="instant-callback-strip reveal">
+        <div class="callback-info">
+          <h4><i class="fa-solid fa-phone-volume" style="color:var(--primary); margin-right:0.5rem;"></i> Need Urgent Groceries or Catering Quote?</h4>
+          <p>Enter your phone number &amp; our store manager will call you back within <strong>5 minutes</strong>.</p>
+        </div>
+        <form class="callback-form">
+          <input type="tel" class="form-control" placeholder="Enter your 10-digit mobile number" required>
+          <button type="submit" class="btn btn-primary" style="white-space:nowrap;"><i class="fa-solid fa-phone-arrow-up-right"></i> Call Me Now</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- 13. FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <!-- Col 1: About Brand -->
+        <div>
+          <a href="index.html" class="footer-logo">
+            <div class="logo-icon"><i class="fa-solid fa-basket-shopping"></i></div>
+            <div>KUMARI<span style="color:var(--secondary);">MART</span></div>
+          </a>
+          <p class="footer-desc">
+            Kumari Supermarket is Kanyakumari's premier grocery delivery and wholesale supply partner, bringing fresh quality, integrity, and express convenience to homes and businesses.
+          </p>
+          <div class="footer-socials">
+            <a href="#" class="social-btn" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#" class="social-btn" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#" class="social-btn" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="#" class="social-btn" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+          </div>
+        </div>
+
+        <!-- Col 2: Quick Links -->
+        <div>
+          <h4 class="footer-title">Quick Links</h4>
+          <ul class="footer-links">
+            <li><a href="index.html"><i class="fa-solid fa-chevron-right"></i> Home</a></li>
+            <li><a href="about.html"><i class="fa-solid fa-chevron-right"></i> About Our Company</a></li>
+            <li><a href="services.html"><i class="fa-solid fa-chevron-right"></i> Services Directory</a></li>
+            <li><a href="portfolio.html"><i class="fa-solid fa-chevron-right"></i> Work & Showcase</a></li>
+            <li><a href="offers.html"><i class="fa-solid fa-chevron-right"></i> Special Deals & Offers</a></li>
+            <li><a href="contact.html"><i class="fa-solid fa-chevron-right"></i> Contact & Support</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 3: Services -->
+        <div>
+          <h4 class="footer-title">Our Services</h4>
+          <ul class="footer-links">
+            <li><a href="services.html"><i class="fa-solid fa-chevron-right"></i> Home Grocery Express</a></li>
+            <li><a href="services.html"><i class="fa-solid fa-chevron-right"></i> Bulk Wholesale Orders</a></li>
+            <li><a href="services.html"><i class="fa-solid fa-chevron-right"></i> Wedding Provisions</a></li>
+            <li><a href="services.html"><i class="fa-solid fa-chevron-right"></i> Hotel & HoReCa Supply</a></li>
+            <li><a href="services.html"><i class="fa-solid fa-chevron-right"></i> Fresh Fruits & Veggies</a></li>
+            <li><a href="services.html"><i class="fa-solid fa-chevron-right"></i> Corporate Gift Baskets</a></li>
+          </ul>
+        </div>
+
+        <!-- Col 4: Store Info -->
+        <div>
+          <h4 class="footer-title">Store & Contact</h4>
+          <div class="footer-contact-list">
+            <div class="footer-contact-item">
+              <i class="fa-solid fa-location-dot"></i>
+              <span>124, Cape Road, Main Market Junction, Kanyakumari, Tamil Nadu 629702</span>
+            </div>
+            <div class="footer-contact-item">
+              <i class="fa-solid fa-phone"></i>
+              <a href="tel:+919876543210" style="color:inherit;">+91 98765 43210 / 04652 240123</a>
+            </div>
+            <div class="footer-contact-item">
+              <i class="fa-solid fa-envelope"></i>
+              <a href="mailto:orders@kumarisupermarket.com" style="color:inherit;">orders@kumarisupermarket.com</a>
+            </div>
+            <div class="footer-contact-item">
+              <i class="fa-solid fa-clock"></i>
+              <span>Open 7 Days: 7:00 AM – 10:00 PM</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>&copy; 2026 Kumari Supermarket Services. All Rights Reserved.</div>
+        <div>Designed with Google Material Design principles for modern supermarket services.</div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating Action Buttons -->
+  <div class="floating-actions">
+    <a href="https://wa.me/919876543210" target="_blank" rel="noopener" class="floating-btn btn-whatsapp" aria-label="Chat on WhatsApp" style="position:relative;">
+      <i class="fa-brands fa-whatsapp"></i>
+      <span class="chat-notification-badge">1</span>
+    </a>
+    <button class="floating-btn btn-scroll-top" aria-label="Scroll to top">
+      <i class="fa-solid fa-arrow-up"></i>
+    </button>
+  </div>
+
+  <!-- Reusable Quick Quote Modal -->
+  <div class="modal" id="quoteModal">
+    <div class="modal-dialog">
+      <button class="modal-close" aria-label="Close modal"><i class="fa-solid fa-xmark"></i></button>
+      <div style="margin-bottom: 1.5rem;">
+        <div class="section-badge"><i class="fa-solid fa-bolt"></i> Quick Inquiry</div>
+        <h3 style="margin-bottom: 0.35rem;">Request a Service Quote</h3>
+        <p style="font-size:0.9rem;">Fill out this quick form and our service coordinator will call you back within 15 minutes.</p>
+      </div>
+
+      <form id="modalQuoteForm">
+        <div class="form-group">
+          <label class="form-label" for="modalName">Your Full Name <span class="required">*</span></label>
+          <input type="text" id="modalName" class="form-control" placeholder="e.g. Ramesh Kumar" required>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label" for="modalPhone">Phone Number (WhatsApp) <span class="required">*</span></label>
+          <input type="tel" id="modalPhone" class="form-control" placeholder="e.g. 9876543210" required>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label" for="modalServiceSelect">Service Selected</label>
+          <select id="modalServiceSelect" class="form-control">
+            <option value="Home Grocery Delivery">Home Grocery Delivery</option>
+            <option value="Bulk Wholesale Orders">Bulk Wholesale Orders</option>
+            <option value="Wedding & Event Supplies">Wedding & Event Supplies</option>
+            <option value="Hotel & Restaurant Supply">Hotel & Restaurant Supply</option>
+            <option value="Fresh Fruits & Vegetables">Fresh Fruits & Vegetables</option>
+            <option value="Bakery Products">Bakery Products</option>
+            <option value="Dairy & Cold Storage">Dairy & Cold Storage</option>
+            <option value="Monthly Grocery Packages">Monthly Grocery Packages</option>
+            <option value="Corporate Orders">Corporate Orders</option>
+            <option value="Gift Hampers">Gift Hampers</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label" for="modalNotes">Requirement Details / Estimated Quantity</label>
+          <textarea id="modalNotes" class="form-control" style="min-height:90px;" placeholder="Tell us about your requirements (e.g. 500 guests wedding, daily 20L milk, etc.)"></textarea>
+        </div>
+
+        <div style="display:flex; gap:1rem; justify-content: flex-end; margin-top:1.5rem;">
+          <button type="button" class="btn btn-outline btn-modal-cancel">Cancel</button>
+          <button type="submit" class="btn btn-primary">Submit Request</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- Scripts -->
+  <script src="js/script.js"></script>
+  <script src="js/slider.js"></script>
+  <script src="js/counter.js"></script>
+  <script src="js/contact.js"></script>
+  <script src="js/sales-proof.js"></script>
+</body>
+</html>

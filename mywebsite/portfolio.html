@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Work & Operations Portfolio - Kumari Supermarket | Showcase & Case Studies</title>
+  <meta name="description" content="View Kumari Supermarket's operations gallery, bulk wedding orders, HoReCa resort supplies, temperature-controlled delivery fleet, and corporate gifting case studies.">
+  <meta name="keywords" content="supermarket portfolio, grocery gallery, wedding supply case study, restaurant supply photos, cold chain delivery fleet">
+
+  <!-- Google Fonts & Font Awesome -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400;1,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/animations.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+
+  <!-- Topbar -->
+  <div class="topbar">
+    <div class="container topbar-content">
+      <div class="topbar-left">
+        <div class="topbar-item"><i class="fa-solid fa-clock"></i> Open Daily: 7:00 AM – 10:00 PM</div>
+        <div class="topbar-item"><i class="fa-solid fa-truck-fast"></i> Same-Day Express Delivery Available</div>
+      </div>
+      <div class="topbar-right">
+        <div class="topbar-item"><i class="fa-solid fa-phone"></i> <a href="tel:+919876543210">+91 98765 43210</a></div>
+        <div class="topbar-item"><i class="fa-brands fa-whatsapp"></i> <a href="https://wa.me/919876543210" target="_blank">WhatsApp Us</a></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header class="header" id="mainHeader">
+    <div class="container">
+      <nav class="navbar" aria-label="Main Navigation">
+        <a href="index.html" class="logo">
+          <div class="logo-icon"><i class="fa-solid fa-basket-shopping"></i></div>
+          <div class="logo-text">
+            <div>KUMARI<span>MART</span></div>
+            <span class="logo-tagline">Supermarket & Supply Services</span>
+          </div>
+        </a>
+
+        <ul class="nav-menu">
+          <li><a href="index.html" class="nav-link">Home</a></li>
+          <li><a href="about.html" class="nav-link">About Us</a></li>
+          <li><a href="services.html" class="nav-link">Services</a></li>
+          <li><a href="portfolio.html" class="nav-link active">Portfolio</a></li>
+          <li><a href="offers.html" class="nav-link">Offers & Deals</a></li>
+          <li><a href="contact.html" class="nav-link">Contact</a></li>
+        </ul>
+
+        <div class="nav-cta">
+          <a href="tel:+919876543210" class="btn btn-secondary btn-sm">
+            <i class="fa-solid fa-phone"></i> Call Now
+          </a>
+          <button class="nav-toggle" aria-label="Open Navigation Menu">
+            <i class="fa-solid fa-bars"></i>
+          </button>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer -->
+  <div class="mobile-nav" id="mobileDrawer">
+    <div>
+      <div class="mobile-nav-header">
+        <a href="index.html" class="logo">
+          <div class="logo-icon"><i class="fa-solid fa-basket-shopping"></i></div>
+          <div class="logo-text">KUMARI<span>MART</span></div>
+        </a>
+        <button class="mobile-nav-close" aria-label="Close menu"><i class="fa-solid fa-xmark"></i></button>
+      </div>
+
+      <div class="mobile-nav-links">
+        <a href="index.html" class="mobile-nav-link">Home <i class="fa-solid fa-chevron-right"></i></a>
+        <a href="about.html" class="mobile-nav-link">About Us <i class="fa-solid fa-chevron-right"></i></a>
+        <a href="services.html" class="mobile-nav-link">Services <i class="fa-solid fa-chevron-right"></i></a>
+        <a href="portfolio.html" class="mobile-nav-link active">Portfolio <i class="fa-solid fa-chevron-right"></i></a>
+        <a href="offers.html" class="mobile-nav-link">Offers & Deals <i class="fa-solid fa-chevron-right"></i></a>
+        <a href="contact.html" class="mobile-nav-link">Contact <i class="fa-solid fa-chevron-right"></i></a>
+      </div>
+    </div>
+    <div>
+      <a href="contact.html" class="btn btn-primary" style="width:100%;">
+        <i class="fa-solid fa-file-invoice"></i> Request Quote
+      </a>
+    </div>
+  </div>
+  <div class="nav-overlay" id="navOverlay"></div>
+
+  <!-- Page Hero Banner -->
+  <section class="page-hero">
+    <div class="container">
+      <h1 class="page-hero-title">Our Work &amp; Operations Portfolio</h1>
+      <p class="page-hero-subtitle">Take a visual tour of our modern store aisles, direct farm sorting, fleet logistics, and large-scale bulk orders.</p>
+      <div class="breadcrumb">
+        <a href="index.html">Home</a>
+        <i class="fa-solid fa-chevron-right" style="font-size:0.7rem;"></i>
+        <span>Portfolio</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Filterable Gallery Section -->
+  <section class="section">
+    <div class="container">
+      <!-- Filter Buttons -->
+      <div class="filter-container reveal">
+        <button class="filter-btn active" data-filter="all">All Showcase</button>
+        <button class="filter-btn" data-filter="produce">Fresh Produce</button>
+        <button class="filter-btn" data-filter="store">Store Aisles</button>
+        <button class="filter-btn" data-filter="bakery">Bakery &amp; Dairy</button>
+        <button class="filter-btn" data-filter="bulk">Bulk &amp; Catering</button>
+        <button class="filter-btn" data-filter="fleet">Fleet &amp; Logistics</button>
+        <button class="filter-btn" data-filter="hampers">Gift Hampers</button>
+      </div>
+
+      <!-- Gallery Grid -->
+      <div class="gallery-grid">
+        <!-- Item 1: Produce -->
+        <div class="gallery-item reveal stagger-1" data-category="produce">
+          <img src="https://images.unsplash.com/photo-1610832958506-aa56368176cf?auto=format&fit=crop&w=800&q=80" alt="Farm Fresh Fruits & Vegetables Display" class="gallery-img">
+          <div class="gallery-overlay">
+            <span class="gallery-tag">Fresh Produce</span>
+            <h4>Daily Farm Harvest Sorting</h4>
+            <p>Ozone-washed grade-A fruits and organic vegetables.</p>
+          </div>
+          <div class="gallery-zoom-icon"><i class="fa-solid fa-expand"></i></div>
+        </div>
+
+        <!-- Item 2: Store -->
+        <div class="gallery-item reveal stagger-2" data-category="store">
+          <img src="https://images.unsplash.com/photo-1578916171728-46686eac8d58?auto=format&fit=crop&w=800&q=80" alt="Supermarket Aisles & FMCG Shelves" class="gallery-img">
+          <div class="gallery-overlay">
+            <span class="gallery-tag">Store Aisles</span>
+            <h4>Modern FMCG &amp; Pantry Aisles</h4>
+            <p>10,000+ well-organized packaged essentials.</p>
+          </div>
+          <div class="gallery-zoom-icon"><i class="fa-solid fa-expand"></i></div>
+        </div>
+
+        <!-- Item 3: Bakery -->
+        <div class="gallery-item reveal stagger-3" data-category="bakery">
+          <img src="https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=800&q=80" alt="In-House Bakery Fresh Breads" class="gallery-img">
+          <div class="gallery-overlay">
+            <span class="gallery-tag">Bakery & Dairy</span>
+            <h4>Oven-Fresh Artisan Breads</h4>
+            <p>Baked daily at 5:00 AM with zero preservatives.</p>
+          </div>
+          <div class="gallery-zoom-icon"><i class="fa-solid fa-expand"></i></div>
+        </div>
+
+        <!-- Item 4: Bulk -->
+        <div class="gallery-item reveal stagger-1" data-category="bulk">
+          <img src="https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=800&q=80" alt="Bulk Warehouse Dispatch" class="gallery-img">
+          <div class="gallery-overlay">
+            <span class="gallery-tag">Bulk & Catering</span>
+            <h4>Institutional Wholesale Stacks</h4>
+            <p>Sacks of premium rice, pulses, and cooking oils.</p>
+          </div>
+          <div class="gallery-zoom-icon"><i class="fa-solid fa-expand"></i></div>
+        </div>
+
+        <!-- Item 5: Fleet -->
+        <div class="gallery-item reveal stagger-2" data-category="fleet">
+          <img src="https://images.unsplash.com/photo-1580674684081-7617fbf3d745?auto=format&fit=crop&w=800&q=80" alt="Refrigerated Delivery Fleet" class="gallery-img">
+          <div class="gallery-overlay">
+            <span class="gallery-tag">Fleet & Logistics</span>
+            <h4>Cold-Chain Delivery Vans</h4>
+            <p>Temperature-controlled transit for dairy &amp; produce.</p>
+          </div>
+          <div class="gallery-zoom-icon"><i class="fa-solid fa-expand"></i></div>
+        </div>
+
+        <!-- Item 6: Hampers -->
+        <div class="gallery-item reveal stagger-3" data-category="hampers">
+          <img src="https://images.unsplash.com/photo-1549465220-1a8b9238cd48?auto=format&fit=crop&w=800&q=80" alt="Custom Corporate Festival Hampers" class="gallery-img">
+          <div class="gallery-overlay">
+            <span class="gallery-tag">Gift Hampers</span>
+            <h4>Executive Diwali Gift Baskets</h4>
+            <p>Hand-curated dry fruits and gourmet chocolate boxes.</p>
+          </div>
+          <div class="gallery-zoom-icon"><i class="fa-solid fa-expand"></i></div>
+        </div>
+
+        <!-- Item 7: Bulk Wedding -->
+        <div class="gallery-item reveal stagger-1" data-category="bulk">
+          <img src="https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=800&q=80" alt="Grand Wedding Catering Provisions" class="gallery-img">
+          <div class="gallery-overlay">
+            <span class="gallery-tag">Bulk & Catering</span>
+            <h4>800-Guest Wedding Provisioning</h4>
+            <p>Dawn delivery straight to the marriage banquet hall.</p>
+          </div>
+          <div class="gallery-zoom-icon"><i class="fa-solid fa-expand"></i></div>
+        </div>
+
+        <!-- Item 8: Dairy -->
+        <div class="gallery-item reveal stagger-2" data-category="bakery">
+          <img src="https://images.unsplash.com/photo-1527153857715-3908f2ae5e81?auto=format&fit=crop&w=800&q=80" alt="Fresh Dairy & In-House Paneer" class="gallery-img">
+          <div class="gallery-overlay">
+            <span class="gallery-tag">Bakery & Dairy</span>
+            <h4>Fresh Malai Paneer &amp; Curd</h4>
+            <p>Made fresh daily under strict 4°C refrigeration.</p>
+          </div>
+          <div class="gallery-zoom-icon"><i class="fa-solid fa-expand"></i></div>
+        </div>
+
+        <!-- Item 9: Store Entrance -->
+        <div class="gallery-item reveal stagger-3" data-category="store">
+          <img src="https://images.unsplash.com/photo-1534723452862-4c874018d66d?auto=format&fit=crop&w=800&q=80" alt="Kumari Supermarket Front Store" class="gallery-img">
+          <div class="gallery-overlay">
+            <span class="gallery-tag">Store Aisles</span>
+            <h4>Main Market Retail Floor</h4>
+            <p>Spacious air-conditioned retail shopping experience.</p>
+          </div>
+          <div class="gallery-zoom-icon"><i class="fa-solid fa-expand"></i></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Real Supply Success Stories & Case Studies -->
+  <section class="section section-bg-alt">
+    <div class="container">
+      <div class="section-header reveal">
+        <div class="section-badge"><i class="fa-solid fa-trophy"></i> Case Studies</div>
+        <h2 class="section-title">Proven Supply Excellence</h2>
+        <p class="section-subtitle">Real stories of how Kumari Supermarket executes high-stakes provisioning with precision and reliability.</p>
+      </div>
+
+      <div class="services-grid" style="grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));">
+        <!-- Case Study 1 -->
+        <div class="card reveal stagger-1">
+          <div class="card-body">
+            <span class="card-badge" style="position:static; margin-bottom:1rem; display:inline-block;">Grand Wedding Project</span>
+            <h3 class="card-title">850-Guest Destination Wedding Provisioning</h3>
+            <p class="card-text">Delivered 1,400 kg of Basmati &amp; Sona Masoori rice, 300 liters of cold-pressed oils, and 450 kg of sorted mountain vegetables to a premier beach resort banquet with zero delay.</p>
+            <div style="background:var(--bg-main); padding:1rem; border-radius:var(--radius-md); margin-bottom:1rem; font-size:0.88rem;">
+              <div><strong>Client:</strong> Sundararajan Family</div>
+              <div><strong>Timeline:</strong> 4:00 AM Dawn Handover</div>
+              <div><strong>Outcome:</strong> 100% On-time, ₹42,000 Client Bulk Savings</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Case Study 2 -->
+        <div class="card reveal stagger-2">
+          <div class="card-body">
+            <span class="card-badge badge-orange" style="position:static; margin-bottom:1rem; display:inline-block;">HoReCa Contract</span>
+            <h3 class="card-title">5-Star Luxury Resort Daily Supply Contract</h3>
+            <p class="card-text">Contracted to supply daily dairy, poultry, exotic greens, and custom bakery goods to a 120-room resort with guaranteed 5:30 AM early morning kitchen docking 365 days a year.</p>
+            <div style="background:var(--bg-main); padding:1rem; border-radius:var(--radius-md); margin-bottom:1rem; font-size:0.88rem;">
+              <div><strong>Client:</strong> Sea Breeze Coastal Resort</div>
+              <div><strong>Duration:</strong> 4-Year Ongoing Retainer</div>
+              <div><strong>Quality Rating:</strong> 99.8% Perfect Delivery Score</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Case Study 3 -->
+        <div class="card reveal stagger-3">
+          <div class="card-body">
+            <span class="card-badge" style="position:static; margin-bottom:1rem; display:inline-block;">Corporate Gifting</span>
+            <h3 class="card-title">1,200 Custom Diwali Gourmet Gift Hampers</h3>
+            <p class="card-text">Assembled, branded, and dispatched 1,200 premium wooden gift chests filled with California almonds, Afghan raisins, and handcrafted dark chocolates to 4 IT campus branches.</p>
+            <div style="background:var(--bg-main); padding:1rem; border-radius:var(--radius-md); margin-bottom:1rem; font-size:0.88rem;">
+              <div><strong>Client:</strong> GlobalTech Infopark</div>
+              <div><strong>Turnaround:</strong> 72 Hours Packing &amp; Dispatch</div>
+              <div><strong>Feedback:</strong> 5.0 Star Executive Satisfaction</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Banner -->
+  <section class="section" style="padding-top: 0;">
+    <div class="container">
+      <div class="cta-banner reveal">
+        <h2>Want Us to Handle Your Next Big Order?</h2>
+        <p>Whether you need daily hotel supply or bulk event catering, our operations team is ready to deliver.</p>
+        <div class="cta-banner-actions">
+          <a href="contact.html" class="btn btn-secondary btn-lg">Request Bulk Proposal</a>
+          <a href="https://wa.me/919876543210" target="_blank" class="btn btn-outline-white btn-lg">Chat with Operations Lead</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Fullscreen Lightbox Modal -->
+  <div class="lightbox" id="galleryLightbox" aria-modal="true" role="dialog">
+    <div class="lightbox-content">
+      <button class="lightbox-close" aria-label="Close Lightbox"><i class="fa-solid fa-xmark"></i></button>
+      <button class="lightbox-nav-btn lightbox-prev" aria-label="Previous Image"><i class="fa-solid fa-chevron-left"></i></button>
+      <img src="" alt="Enlarged Gallery Showcase" class="lightbox-img">
+      <div class="lightbox-caption"></div>
+      <button class="lightbox-nav-btn lightbox-next" aria-label="Next Image"><i class="fa-solid fa-chevron-right"></i></button>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <a href="index.html" class="footer-logo">
+            <div class="logo-icon"><i class="fa-solid fa-basket-shopping"></i></div>
+            <div>KUMARI<span style="color:var(--secondary);">MART</span></div>
+          </a>
+          <p class="footer-desc">Kumari Supermarket is Kanyakumari's premier grocery delivery and wholesale supply partner, bringing fresh quality and express convenience to all.</p>
+          <div class="footer-socials">
+            <a href="#" class="social-btn"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#" class="social-btn"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#" class="social-btn"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="#" class="social-btn"><i class="fa-brands fa-youtube"></i></a>
+          </div>
+        </div>
+        <div>
+          <h4 class="footer-title">Quick Links</h4>
+          <ul class="footer-links">
+            <li><a href="index.html"><i class="fa-solid fa-chevron-right"></i> Home</a></li>
+            <li><a href="about.html"><i class="fa-solid fa-chevron-right"></i> About Us</a></li>
+            <li><a href="services.html"><i class="fa-solid fa-chevron-right"></i> Services</a></li>
+            <li><a href="portfolio.html"><i class="fa-solid fa-chevron-right"></i> Portfolio</a></li>
+            <li><a href="offers.html"><i class="fa-solid fa-chevron-right"></i> Offers & Deals</a></li>
+            <li><a href="contact.html"><i class="fa-solid fa-chevron-right"></i> Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="footer-title">Our Services</h4>
+          <ul class="footer-links">
+            <li><a href="services.html"><i class="fa-solid fa-chevron-right"></i> Home Delivery</a></li>
+            <li><a href="services.html"><i class="fa-solid fa-chevron-right"></i> Bulk Wholesale</a></li>
+            <li><a href="services.html"><i class="fa-solid fa-chevron-right"></i> Wedding Supply</a></li>
+            <li><a href="services.html"><i class="fa-solid fa-chevron-right"></i> Hotel & HoReCa</a></li>
+            <li><a href="services.html"><i class="fa-solid fa-chevron-right"></i> Fresh Fruits & Veg</a></li>
+            <li><a href="services.html"><i class="fa-solid fa-chevron-right"></i> Gift Hampers</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="footer-title">Store & Contact</h4>
+          <div class="footer-contact-list">
+            <div class="footer-contact-item">
+              <i class="fa-solid fa-location-dot"></i>
+              <span>124, Cape Road, Main Market Junction, Kanyakumari 629702</span>
+            </div>
+            <div class="footer-contact-item">
+              <i class="fa-solid fa-phone"></i>
+              <a href="tel:+919876543210" style="color:inherit;">+91 98765 43210</a>
+            </div>
+            <div class="footer-contact-item">
+              <i class="fa-solid fa-clock"></i>
+              <span>Open 7 Days: 7:00 AM – 10:00 PM</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div>&copy; 2026 Kumari Supermarket Services. All Rights Reserved.</div>
+        <div>Designed with Google Material Design principles.</div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating Buttons -->
+  <div class="floating-actions">
+    <a href="https://wa.me/919876543210" target="_blank" class="floating-btn btn-whatsapp" aria-label="Chat on WhatsApp" style="position:relative;">
+      <i class="fa-brands fa-whatsapp"></i>
+      <span class="chat-notification-badge">1</span>
+    </a>
+    <button class="floating-btn btn-scroll-top" aria-label="Scroll to top"><i class="fa-solid fa-arrow-up"></i></button>
+  </div>
+
+  <script src="js/script.js"></script>
+  <script src="js/gallery.js"></script>
+  <script src="js/sales-proof.js"></script>
+</body>
+</html>
